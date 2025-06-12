@@ -1,0 +1,3 @@
+Struktur Data adalah tentang bagaimana data dapat disimpan dalam berbagai struktur.
+
+Algoritma adalah tentang cara memecahkan berbagai masalah, sering kali dengan mencari dan memanipulasi struktur data.
