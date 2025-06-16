@@ -1,3 +1,83 @@
 Struktur Data adalah tentang bagaimana data dapat disimpan dalam berbagai struktur.
+<<<<<<< HEAD
 
 Algoritma adalah tentang cara memecahkan berbagai masalah, sering kali dengan mencari dan memanipulasi struktur data.
+=======
+Algoritma adalah tentang cara memecahkan berbagai masalah, sering kali dengan mencari dan memanipulasi struktur data.
+
+Teori tentang struktur data dan algoritma (DSA) membantu kita menggunakan sejumlah besar data untuk
+memecahkan masalah secara efisien.
+
+Apa itu Struktur Data?
+Contoh mudah untuk memahami struktur data:
+Misalnya saya pengen punya data untuk keluarga dan keturunan saya nanti:
+
+Saya ── Istri
+  │
+  ├── Anak 1 ── Istrinya
+  │     │
+  │     ├── Cucu 1 ── Istrinya
+  │     └── Cucu 2 ── Istrinya
+  │
+  ├── Anak 2 ── Istrinya
+  │     │
+  │     └── Cucu 3 ── Istrinya
+  │
+  └── Anak 3 ── Istrinya
+        │
+        ├── Cucu 4 ── Istrinya
+        └── Cucu 5 ── Istrinya
+
+Dengan membuat strukur data seperti diatas saya bisa dengan mudah untuk mengetahui silsilah keluarga saya.
+Struktur data kurang lebih seperti itu.
+
+Dalam ilmu komputer
+Ada dua jenis struktur data
+1. Struktur data primitif
+2. Struktur data abstrak
+
+Struktur data primitif adalah:
+Struktur data yang di sediakan oleh bahasa pemrograman untuk mempresentasikan nilai tunggal, seperti bilangan bulat,
+angka floating point (pecahan), dan boolean.
+
+Struktur data abstrak adalah:
+Struktur data tingkat tinggi yang dibangun menggunakan tipe data primitif dan menyediakan operasi yang lebih kompleks
+dan terspesialisasi. Beberapa contoh umum struktur data abstrak meliputi meliputi array, linked list, stack,
+queue, tree dan graph.
+
+Apa itu Algoritma?
+Algoritma adalah serangkaian instruksi langkah demi langkah untuk memecahkan masalah tertentu atau mencapai
+tujuan tertentu.
+
+Masak Mie Instan
+1. Masak air
+2. Masukkan mie Instan
+3. Siapkan bumbu
+4. Angkat mie Instan
+5. Tuangkan mie instan ke mangkuk
+
+Contoh diatas adalah sebuah algoritma dalam masak mie instan.
+
+Ketika kita bicara tentag algoritma dalam ilmu komputer, instruksi langkah demi langkah ditulis
+dalam bahasa pemrograman.
+
+Algoritma yang efisien dapat membantu kita menemukan solusi yang kita cari, dan mengubah program
+yang lambat menjadi lebih cepat.
+
+Dengan mempelajari algoritma, pengembang dapat menulis program yang lebih baik.
+
+Contoh algortima:
+Menemukan rute tercepat dalam sistem navigasi GPS
+Menemukan apa yang dicari pengguna (mesin pencari)
+Penyortiran, misalnya sortir film berdasarkan peringkat
+
+Teori dan terminologi
+Agar lebih dapat memahami tentang algortima dan struktur data, 
+kita butuh memahami beberapa konsep teoritis dan terminologi dari struktur data dan algoritma.
+
+Terminologi     Deskripsi
+Algoritma       Urutan instruksi untuk menyelesaikan masalah tertentu
+Struktur data   Suatu cara untuk mengattur data sehingga dapat digunakan secara efisien. Struktur data umumnya meliputi array, linked list dan binary tree
+Time Complexity Komplesitas waktu adalah seberapa lama waktu yang dibutuhkan oleh suatu algoritma untuk menyelesaikan tugasnya, berdasarkan besar inputnya (biasanya di lambangkan dengan n)
+
+>>>>>>> b176388 (intro)
