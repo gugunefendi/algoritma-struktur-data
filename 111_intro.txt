@@ -1,8 +1,4 @@
 Struktur Data adalah tentang bagaimana data dapat disimpan dalam berbagai struktur.
-<<<<<<< HEAD
-
-Algoritma adalah tentang cara memecahkan berbagai masalah, sering kali dengan mencari dan memanipulasi struktur data.
-=======
 Algoritma adalah tentang cara memecahkan berbagai masalah, sering kali dengan mencari dan memanipulasi struktur data.
 
 Teori tentang struktur data dan algoritma (DSA) membantu kita menggunakan sejumlah besar data untuk
