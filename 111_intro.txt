@@ -75,4 +75,7 @@ Terminologi     Deskripsi
 Algoritma       Urutan instruksi untuk menyelesaikan masalah tertentu
 Struktur data   Suatu cara untuk mengattur data sehingga dapat digunakan secara efisien. Struktur data umumnya meliputi array, linked list dan binary tree
 Time Complexity Komplesitas waktu adalah seberapa lama waktu yang dibutuhkan oleh suatu algoritma untuk menyelesaikan tugasnya, berdasarkan besar inputnya (biasanya di lambangkan dengan n)
-
+Big O Notation  Cara untuk menggambarkan seberaa cepat atau lambat kinerja sebuah algoritma saat inputnya bertambah besar
+Recursion       Sebuah teknik pemrograman dimana function memanggil dirinya sendiri
+Divide & ConquerSuatu metode penyelesaian masalah yang kompleks dengan memecahnya menjadi sub-masalah yang lebih kecil dan lebih mudah dikelola, menyelesaikan sub-masalah tersebut, dan menggabungkan solusinya. Rekursi sering digunakan saat menggunakan metode ini dalam suatu algoritma.
+Brute Force     Metode pemecahan masalah dengan mencoba semua kemungkinan secara satu per satu sampai menemukan solusi yang benar
