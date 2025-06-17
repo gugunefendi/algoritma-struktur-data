@@ -76,4 +76,3 @@ Algoritma       Urutan instruksi untuk menyelesaikan masalah tertentu
 Struktur data   Suatu cara untuk mengattur data sehingga dapat digunakan secara efisien. Struktur data umumnya meliputi array, linked list dan binary tree
 Time Complexity Komplesitas waktu adalah seberapa lama waktu yang dibutuhkan oleh suatu algoritma untuk menyelesaikan tugasnya, berdasarkan besar inputnya (biasanya di lambangkan dengan n)
 
->>>>>>> b176388 (intro)
