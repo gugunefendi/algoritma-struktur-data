@@ -1,4 +1,4 @@
-class Fibo {
+class FibonacciForLoop {
     public static void main(String[] args) {
         int prev2 = 0;
         int prev1 = 1;
