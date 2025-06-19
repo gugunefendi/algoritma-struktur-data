@@ -1,0 +1,12 @@
+Angka-angka Fibonaci adalah contoh yang bagus untuk memperkenalkan algoritma.
+
+Dua angka Fibonaci pertama adalah 0 dan 1, dan angka fibonaci berikutnya adalah penjumlahan dari
+dua angka sebelumnya.
+0, 1, 1, 2, 3, 5, 8, 13, 21 ...
+
+Perulangan dan Rekursi
+Agar terlihat perbedaan antara perulangan dan rekursi, kita pakai 3 cara berbeda untuk menemukan angka Fibonaci.
+1. Implementasi algoritma Fibonaci menggunakan forloop
+2. Implementasi algoritma Fibonaci menggunakan rekursi
+3. Menemukan N Angka Fibonaci ke-1 menggunakan rekursi
+
