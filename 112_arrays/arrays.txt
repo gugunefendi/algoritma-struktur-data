@@ -1,0 +1,43 @@
+Array adalah strukur data yang digunakan untk menyimpan data multiple element.
+Array digunakan oleh banyak algoritma.
+Contoh array digunakan untuk mencari angka paling kecil diantara angka-angka lainnya.
+
+[10, 4, 2, 8, 30, 9]
+
+Cara kerja algoritma untuk menemukan angka-angka angka paling kecil di antara kumpulan angka-angka diatas.
+1. Telusuri nilai-nilai dalam array satu per satu
+2. Check apakah nilai saat ini ang paling kecil? Jika ya simpan!
+3. Setelah semua nilai di check, nilai yang disimpan adalah nilai yang paling kecil.
+
+Sekarang kia buat algoritma untuk menemukan angka yang paling kecil dengan bahasa manusia dulu.
+1. Bua variable dengan nama minVal
+2. elusuri seiap elemen dalam array
+3. Jika elemen saat ini nilainya lebih rendah dari nilai minVal perbarui nilai minVal ke nilai ini
+4. Setelah melihat semua elemen dalam array, variabel minVal sekarang berisi nilai ang paling rendah
+
+Sekarang kita buat pseudo codenya
+Variabel minVal = arra[0]
+for each element in Array
+    if current element < minVal
+        minVal = current element
+
+Sekarang kita tulis menggunakan bahasa pemrograman
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int[] myArray = {10, 4, 2, 8, 30, 9};
+
+        int minVal = myArray[0];
+        
+        for (int i : myArray) {
+            if (i < minVal) {
+                minVal = i;
+            }
+            System.out.pritnln(minVal);
+        }
+
+    }
+
+}
