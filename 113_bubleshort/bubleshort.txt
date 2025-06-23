@@ -1,0 +1,16 @@
+Buble Short
+Buble short adalah sebuah algoritma yang mengurutkan sebuah array dari nilai terendah ke nilai teringgi.
+
+Contoh:
+Dari
+12, 4, 5, 8, 3
+
+Menjadi
+3, 4, 5, 8, 12
+
+Cara kerja algoritma buble short
+1. Telusuri array, satu nilai dalam satu waktu
+2. Untuk setiap nilai, bandingkan nilai tersebut dengan nilai berikutnya
+3. Jika nilainya lebih tingi dari nilai berikutnya, tukar nilai tersebut sehingga nilai teringgi berada di akhir
+4. Telusuri array sebanyak nilai yang ada pada array tersebut
+
