@@ -1,0 +1,7 @@
+Selection short 
+Selection short adalah algoritm untuk menemukan nilai terkecil didalam array dan memindahkannya ke bagian depan array.
+
+Cara kerja algoritm Selection short adalah:
+1. Telusuri array untuk menemukan nilai terendah
+2. Pindahkan nilai terendah kebagian depan array yang belum di urutkan
+3. Telusuri kembali array sebanyak jumlah nilai yang ada pada array 
