@@ -1,7 +1,16 @@
 Selection short 
 Selection short adalah algoritm untuk menemukan nilai terkecil didalam array dan memindahkannya ke bagian depan array.
 
-Cara kerja algoritm Selection short adalah:
+Cara kerja algoritma Selection Short adalah:
 1. Telusuri array untuk menemukan nilai terendah
 2. Pindahkan nilai terendah kebagian depan array yang belum di urutkan
 3. Telusuri kembali array sebanyak jumlah nilai yang ada pada array 
+
+Implementasi Selecion Short
+Untuk mengimplementasikan selecion short dalam bahasa pemrograman, kita perlu:
+1. Sebuah array yang akan di urutkan
+2. Loop bagian dalam yang melewati array, menemukan nilai terendah, dan memindahkannya kebagian depan array.
+    Loop ini harus melewati satu nilai lebih sedikit setiap kali dijalankan
+3. Loop luar yang mengontrol berapa kali loop dalam harus dijalankan. Untuk array dengan N nilai, loop luar ini
+    harus dijalankan N - 1 waktu.
+
