@@ -1,0 +1,48 @@
+Buble Short 
+Buble Short adalah sebuah algoritma yang mengurutkan suatu susunan dari nilai terendah ke nilai tertinggi.
+
+Cara kerja Algoritma Buble Short
+1. Telusury array, satu nilai dalam satu waktu
+2. Untuk setiap nilai, bandingkan nilai tersebut dengan nilai berikutnya
+3. Jika nilainya lebih tinggi dari nilai berikutnya, tukarkan nilainya sehingga nilai tertinggi berada terkahir
+4. Telusury array tersebut sebanyak jumlah nilai yang ada didalam array tersebut
+
+Gambaran sebuah algoritma buble Short
+
+Langkah 1: 
+Kita memiliki array yang belum di urutkan
+[7, 12, 9, 11, 3]
+
+Langkah 2: 
+Kita bandingkan nilai pada indeks kedua dengan nilai pada indeks pertama:
+Apakah nilai pada indeks kedua lebih kecil dari nilai pada indeks pertama?
+[[7, 12], 9, 11, 3]
+Jawabannya Tidak.
+Maka kita tidak perlu menukarnya
+
+Langkah 3:
+Kita bandingkan nilai pada indeks kedua dengan nilai pada indeks ketiga:
+Apakah nilai pada indeks ketiga lebih kecil dari nilai pada indeks kedua?
+[7, [12, 9], 11, 3]
+Jawabannya Ya.
+Maka kita tukar posisinya antara nilai pada indeks kedua dengan nilai pada indeks kedua.
+Maka sekarang arraynya menjadi:
+[7, [9, 12], 11, 3]
+
+Langkah 4:
+Kita bandingkan nilai pada indeks ketiga dengan nilai pada indeks keempat
+Apakah nilai pada indeks keempat lebih kecil dari nilai pada indeks ketiga?
+[7, 9, [12, 11], 3]
+Jawabannya Ya.
+Maka kita tukar posisi nilai pada indeks ke empat dengan nilai pada indeks ketiga.
+Maka sekarang arraynya menjadi:
+[7, 9, [11, 12], 3]
+
+Langkah ke 5:
+Kita bandingkan nilai pada indeks keempat dengan nilai pada indeks kelima.
+Apakah nilai pada indeks kelima lebih kecil dari nilai pada indeks keempat?
+[7, 9, 11, [12, 3]]
+Jawabannya Ya.
+Maka kita tukar posisi nilai pada indeks kelima dengan nilai pada indeks keempat.
+Maka sekarang arraynya menjadi:
+[7, 9, 11, [3, 12]]
