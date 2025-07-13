@@ -69,6 +69,44 @@ public class ForLoop {
          *          i++;
          *      }
          */
+
+         for (int i=0, j=10; i<=j; i++, j--) {
+            System.out.println(i +", " + j);
+         }
+         /*
+          loop 1: i=0 < j=10 = 0
+          loop 2: i=1 < j=9 = 1
+          loop 3: i=2 < j=8 = 2
+          loop 4: i=3 < j=7 = 3
+          loop 5: i=4 < j=6 = 4
+          loop 6: i=5 = j=5 = 5
+          loop 7: i=6 !< && != j=4 = false
+          loop 8: i=7 !< && != j=3 = false
+          loop 9: i=8 !< && != j=2 = false
+          loop 10: i=9 !< && != j=1 = false
+          loop 11: i=10 !< && != j=0 = false
+          */
+
+            System.out.println("-----------------------------------");
+          for (int i=5; i>0; i--) {
+            System.out.println(i);
+          }
+          /*
+           * 1. 5 > 0 = true
+           * 2. 4 > 0 = true
+           * 3. 3 > 0 = true
+           * 4. 2 > 0 = true
+           * 5. 1 > 0 = true
+           * 6. 0 > 0 = false
+           */
+
+            System.out.println("-----------------------------------");
+           for (int i=1; i<10; i*=2) {
+            System.out.println(i);
+           }
+            
+
+
     }
 
 }
