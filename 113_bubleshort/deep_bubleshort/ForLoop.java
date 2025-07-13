@@ -104,6 +104,50 @@ public class ForLoop {
            for (int i=1; i<10; i*=2) {
             System.out.println(i);
            }
+
+            System.out.println("-------------- BUBLE SHORT -----------------");
+            int[] numbers = {12, 23, 45, 7, 9};
+            int n = numbers.length;
+            for (int i=0; i<n; i++) {
+                for (int j=0; j<n-i-1; j++) {
+                    System.out.println(numbers[j] +","+ numbers[j+1]);
+                    if (numbers[j] > numbers[j+1]) {
+                        int temp = numbers[j+1];
+                        numbers[j+1] = numbers[j];
+                        numbers[j] = temp;
+                    }
+                }
+            }
+
+            System.out.println("-----------------------------------");
+            for (int i=0; i<n; i++) {
+                System.out.print(numbers[i] + ",");
+            }
+            /*
+             * Loop 1:
+             * i = 0
+             * i < n ? true
+             * // Nested Loop
+             * j = 0
+             * j < n-i-1 = 5-0-1 = 4 ? true
+             * numbers[j] = 12 > numbers[j+1] = 0+1 = 1 = 23 ? false
+             * 
+             * j = 1
+             * i = 0
+             * j < n-i-1 = 5-0-1 = 4 ? true
+             * numbers[j] = 23 > numbers[j+1] = 45 ? false
+             * 
+             * j = 2
+             * i = 0
+             * j < n-i-1 = 5-2-1 = 2 ? true
+             * numbers[j] = 25 > numbers[j+1]  ? true
+             * temp = numbers[j+1] = 7
+             * numbers[j+1] = numbers[j]
+             * numbers[j] = temp
+             * 
+             * .................
+             */
+
             
 
 
