@@ -1,0 +1,39 @@
+Insertion Short | Pengurutan Penyisipan
+Algoritma insertion short menggunakan satu bagian didalam array untuk menahan nilai yang di urutkan,
+dan bagian lain didalam array untuk menahan nilai-nilai yang belum di urutkan.
+
+Algoritmanya mengambil satu nilai pada satu waktu dari bagian-bagian array yang belum di urutkan
+dan mengambilnya ke tempat yang tepat kedalam bagian array yang diurutkan, sampai array terurut.
+
+Cara kerja algoritma insertion short
+1. Ambil nilai pertama dari bagian array yang belum di urutkan
+2. Pindah nilai kedalam tempat yang tepat didalam bagian array yang di urutkan
+3. Lewati bagian array yang belum di urutkan lagi sebanyak nilai yang ada 
+
+Menjalankan algoritma insertion short secara manual
+step 1: array yang belum diurutkan
+[7, 12, 9, 11, 3]
+
+step 2: kita anggap nilai pertama sebagai nilai yang sudah di urutkan (kalau hanya 1 nilai pasti kan sudah terurut)
+[*7, 12, 9, 11, 3]
+
+step 3: nilai selanjutnya 12 harus di pindahkan ke posisi yang tepat didalam bagian array yang di urutkan. Tapi karena 12 lebih besar dari 7, maka posisi ini sudah benar. Jadi tidak perlu kita pindahkan
+[7, *12, 9, 11, 3]
+
+step 4: nilai selanjutnya adalah 9
+[7, 12, *9, 11, 3]
+
+step 5: karena 9 lebih kecil dari 12 maka harus kita pindahkan ke posisi array yang telah diurutkan. jadi kita pindahkan 9 diantara 7 dan 12
+[7, 9, 12, 11, 3]
+
+step 6: nilai selanjutnya adalah 11
+[7, 9, 12, *11, 3]
+
+step 7: nilai 11 lebih kecil dari 12 maka harus kita pindahakn kedalam array yang telah di urutkan. jadi kita pindahkan 11 diantara 9 dan 12
+[7, 9, 11, 12, 3]
+
+step 8: nilai terakhir yang harus kita pindahkan ke posisi yang benar adalah 3
+[7, 9, 11, 12, *3]
+
+step 9: kita sisipkan angka 3 didepan semua nilai, karena 3 adalah nilai terendah
+[3, 7, 9, 11, 12]
