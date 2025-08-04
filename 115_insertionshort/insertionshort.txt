@@ -1,39 +1,68 @@
-Insertion Short | Pengurutan Penyisipan
-Algoritma insertion short menggunakan satu bagian didalam array untuk menahan nilai yang di urutkan,
-dan bagian lain didalam array untuk menahan nilai-nilai yang belum di urutkan.
+Insertion Sort
 
-Algoritmanya mengambil satu nilai pada satu waktu dari bagian-bagian array yang belum di urutkan
-dan mengambilnya ke tempat yang tepat kedalam bagian array yang diurutkan, sampai array terurut.
+Bagaimana Cara Kerja Insertion Sort Secara Konseptual?
 
-Cara kerja algoritma insertion short
-1. Ambil nilai pertama dari bagian array yang belum di urutkan
-2. Pindah nilai kedalam tempat yang tepat didalam bagian array yang di urutkan
-3. Lewati bagian array yang belum di urutkan lagi sebanyak nilai yang ada 
+Inti dari Insertion Sort
+Kita membagi array menjadi 2 bagian:
+1. Bagian kiri (terurut)
+2. Bagian kanan (belum terurut)
 
-Menjalankan algoritma insertion short secara manual
-step 1: array yang belum diurutkan
-[7, 12, 9, 11, 3]
+Lalu kita ambil satu per satu elemen dari bagian kanan dan sisipkan ke posisi yang tepat di bagian kiri agar tetap terurut.
 
-step 2: kita anggap nilai pertama sebagai nilai yang sudah di urutkan (kalau hanya 1 nilai pasti kan sudah terurut)
-[*7, 12, 9, 11, 3]
+Langkah-langkahnya:
+Misalnya kita punya array:
+[5, 3, 8, 6, 2]
+1. Mulai dari elemen ke-2 (karena elemen pertama dianggap sudah terurut)
+2. Bandingkan dengan elemen di sebelah kirinya
+3. Geser elemen yang lebih besar ke kanan
+4. Sisipkan elemen tersebut ke posisi yang sesuai
 
-step 3: nilai selanjutnya 12 harus di pindahkan ke posisi yang tepat didalam bagian array yang di urutkan. Tapi karena 12 lebih besar dari 7, maka posisi ini sudah benar. Jadi tidak perlu kita pindahkan
-[7, *12, 9, 11, 3]
+Langkah 1:
+    [5, 3, 8, 6, 2]
+    Bandingkan 3 dengan 5
+    3 < 5
+    Geser 5 -> [5, 5, 8, 6, 5]
+    Sisipkan 3 -> [3, 5, 8, 6, 2]
 
-step 4: nilai selanjutnya adalah 9
-[7, 12, *9, 11, 3]
+Langkah 2: 
+    [3, 5, 8, 6, 2]
+    Bandingkan 8 dengan 5
+    8 !< 5
+    Berati tidak perlu di Geser
 
-step 5: karena 9 lebih kecil dari 12 maka harus kita pindahkan ke posisi array yang telah diurutkan. jadi kita pindahkan 9 diantara 7 dan 12
-[7, 9, 12, 11, 3]
+Langkah 3:
+    [3, 5, 8, 6, 2]
+    Bandinkan 6 dengan 8
+    6 < 8
+    Geser 8 -> [3, 5, 8, 8, 2]
+    Sisipkan 6 -> [3, 5, 6, 8, 2]
 
-step 6: nilai selanjutnya adalah 11
-[7, 9, 12, *11, 3]
+Langkah 4:
+    [3, 5, 6, 8, 2]
+    Bandingkan 2 dengan 8
+    2 < 8
+    Geser 8 -> [3, 5, 6, 8, 8]
+    Bandingkan 2 dengan 6
+    2 < 6
+    Geser 6 -> [3, 5, 6, 6, 8]
+    Bandingkan 2 dengan 5
+    2 < 5
+    Geser 5 -> [3, 5, 5, 6, 8]
+    Bandingkan 2 dengan 3
+    2 < 3
+    Geser 3 -> [3, 3, 5, 6, 8]
+    Sisipkan 2 -> [2, 3, 5, 6, 8]
 
-step 7: nilai 11 lebih kecil dari 12 maka harus kita pindahakn kedalam array yang telah di urutkan. jadi kita pindahkan 11 diantara 9 dan 12
-[7, 9, 11, 12, 3]
 
-step 8: nilai terakhir yang harus kita pindahkan ke posisi yang benar adalah 3
-[7, 9, 11, 12, *3]
+Analogi Sederhana: Menyusun Kartu Remi
+Bayangkan kamu sedang main kartu remi dan ingin menyusunnya dari kecil ke besar di tanganmu
+1. Ambil kartu satu persatu
+2. Setiap kartu yang kamu ambil, kamu cari posisi yang tepat untuk menyisipkannya diantara kartu-kartu yang sudah kamu pegang
+3. Kamu geser kartu lain jika perlu supaya kartu yang baru bisa masuk di tempat yang pasti
 
-step 9: kita sisipkan angka 3 didepan semua nilai, karena 3 adalah nilai terendah
-[3, 7, 9, 11, 12]
+
+Kenapa Disebut Insertion Sort?
+Karena setiap elemen yang kita proses di sisipkan (inserted) ke posisi yang tepat didalam bagian array yang sudah terurut.
+
+Kita tidak menukar, tapi menyisipkan elemen ke tempat yang sesuai setelah membandingkan dan menggeser elemen lain.
+
