@@ -66,3 +66,27 @@ Karena setiap elemen yang kita proses di sisipkan (inserted) ke posisi yang tepa
 
 Kita tidak menukar, tapi menyisipkan elemen ke tempat yang sesuai setelah membandingkan dan menggeser elemen lain.
 
+
+Narasi penerapan algoritma insertion Sort
+1. urutkan setiap elemen satu persatu
+2. bagi menjadi 2 bagian: array terurut dan array belum terurut
+3. ambil elemen pertama yaitu elemen pada index 0 (kita anggap ini sudah terurut, kan hanya ada 1 nilai jadi sudah pasti terurut)
+4. bandingkan dengan elemen kedua, jika elemen kedua lebih kecil dari elemen pertama maka geser elemen pertama ke elemen kedua lalu sisipkan elemen kedua ke elemen pertama
+5. sekarang elemen pertama dan kedua sudah terurut
+6. sekarang bandingkan elemen kedua dengan elemen ketiga
+7. jika elemen ketiga lebih kecil dari elemen kedua maka geser elemen kedua ke elemen ketiga
+8. lalu bandingkan lagi elemen ketiga dengan elemen pertama jika elemen ketiga lebih kecil dari elemen pertama maka geser elemen pertama ke elemen kedua dan sisipkan elemen ketika ke elemen pertama
+9. namun jika elemen ketiga tidak lebih kecil dari elemen pertama maka loop stop, dan sisipkan elemen ketiga ke elemen kedua.
+
+
+Pseudocode
+int[] = {12, 3, 7, 4, 2}
+
+telusuri semua elemen didalam array dimulai dari index 0, inisialisai dengan i
+    telusuri semua didalam array dimulai dari i + 1, inisialisasi dengan j
+        jika elemen[j] > elemen[i]
+            pindahkan elemen[i] kekanan 1x
+        break loop dan sisipkan x 
+
+
+
